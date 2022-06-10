@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(250, 250, 186);
+}
+
+header{
+    display: grid;
+    grid-template-columns: 30% auto;
+    background-color: rgb(236, 141, 63);
+}
+
+header, img{
+    border-radius: 200px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.25em;
+    justify-content: center;
+    align-items: center;
+}
+
+.history{
+    padding: 2em;
+}
+
+.history h2{
+    font-size: 2em;
+}
+
+.history p{
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+.line{
+    border: solid 1px black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
